@@ -18,7 +18,7 @@ export default function Page() {
         />
           <span>
           <h3 className="font-serif text-6xl text-[#D4AF37] font-black uppercase">CoinAfriq</h3>
-          <p className="font-sans text-2xl">Africa's Digital Currency</p>
+          <p className="font-sans text-2xl">Africa&apos;s Digital Currency</p>
           </span>
           </span>
           
@@ -91,9 +91,9 @@ export default function Page() {
     </p>
     <p className="text-[#4c3525] font-sans text-xl max-w-3xl pt-4 text-right">
     CoinAfriq uses advanced public key encryption that is considered impossible to crack even with next-gen technology.
-    Whether you're using our blockchain, our wallet or even our website, your information is securely encrypted to the highest current standard.
+    Whether you&apos;re using our blockchain, our wallet or even our website, your information is securely encrypted to the highest current standard.
     </p>
-    <p className="text-[#4c3525] font-sans text-xl max-w-3xl pt-4 text-right">Don't believe us? Feel free to try and crack it!</p>
+    <p className="text-[#4c3525] font-sans text-xl max-w-3xl pt-4 text-right">Don&apos;t believe us? Feel free to try and crack it!</p>
     </article>
     </div>
     </section>
@@ -108,7 +108,7 @@ export default function Page() {
         />
         <h1 className="text-6xl text-[#4c3525] text-center py-6">Democracy at work</h1>
         <p className="text-3xl text-[#4c3525] text-center max-w-4xl m-auto">In other digital currencies, greater shares can be alloted to those who already own the most.
-        We don't do that here. On our ecosystem, all verification is done by a delegation that is democratically voted on. We call this Nominated Proof of Stake.
+        We don&apos;t do that here. On our ecosystem, all verification is done by a delegation that is democratically voted on. We call this Nominated Proof of Stake.
         This ensures everyone has a voice, not just those with the most earnings.
         </p>
       </article>
