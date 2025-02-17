@@ -12,7 +12,15 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        serif: ['var(--font-noto-serif)'],
+        sans: ['var(--font-noto-sans)'],
+      },
+      backgroundImage: {
+        "hero": "url('./public/tree.webp')",
+      },
     },
   },
   plugins: [],
+  darkMode: "class",
 } satisfies Config;

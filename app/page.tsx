@@ -1,101 +1,135 @@
-import Image from "next/image";
+import { Menu } from "lucide-react";
 
-export default function Home() {
+import Image from 'next/image';
+
+export default function Page() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+    <>
+    <header className="bg-[url('/tree.avif')] bg-cover bg-fixed h-screen flex flex-col">
+        <header className="top-0 py-6 items-center gap-2 border-b backdrop-blur sticky bg-[#007A4DBB] m-0">
+        <div className="flex items-center justify-between max-w-6xl m-auto">
+        <div>
+          <span className="flex items-center gap-6">
+          <Image
+          src="/coin-afriq.svg"
+          width={96}
+          height={96}
+          alt="Logo"
         />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          <span>
+          <h3 className="font-serif text-6xl text-[#D4AF37] font-black uppercase">CoinAfriq</h3>
+          <p className="font-sans text-2xl">Africa's Digital Currency</p>
+          </span>
+          </span>
+          
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        <button>
+          <Menu />
+        </button>
+          </div>
+        </header>
+    
+    <section className="m-auto bg-[#000000bb] px-12 py-6">
+      <div className="flex flex-col items-center justify-center max-w-2xl">
+        <Image
+          src="/coin-afriq.svg"
+          width={256}
+          height={256}
+          alt="Logo"
+        />
+        <h1 className="text-8xl font-serif font-black uppercase py-6">CoinAfriq</h1>
+        <p className="text-xl font-sans">
+          Africoin is the first secure digital currency made for the African continent. Secure your finances with cutting edge technology
+          to ensure your money is safe, your data private and your privacy respected. 
+        </p>
+        <br />
+        <div className="flex items-center justify-center gap-6 py-6">
+          <button className="bg-[#D4AF37] border px-6 py-2 text-xl rounded-lg">Buy</button>
+          <button className="border px-6 py-2 text-xl rounded-lg">Get your wallet</button>
+          <button className="border px-6 py-2 text-xl rounded-lg">Learn More</button>
+        </div>
+      </div>
+    </section>
+    </header>
+    <main>
+    <section className="bg-[#E6BE8A] text-black px-6 py-8">
+    <div className="max-w-6xl m-auto py-6 flex gap-6"> 
+    <article>
+    <h2 className="text-6xl text-[#4c3525] pb-4 font-serif">Why CoinAfriq</h2>
+    <p className="text-[#4c3525] font-sans text-xl max-w-3xl">
+    There are many cryptocurrencies out there. You might ask, what sets us apart.
+    We wish to uplift our continent though a decentralized democratic payment system where no matter your privacy
+    background or economic system, your money is yours.
+    </p>
+    <p className="text-[#4c3525] font-sans text-xl max-w-3xl pt-4">
+    CoinAfriq is for everyone. With an advanced system in place to ensure not only the highest stakeholders
+    get all the wealth, and a fault tolerant ecosystem that ensures the utmost security for your finances,
+    you truly are in charge of your wealth.
+    </p>
+    </article>
+    <Image 
+      src="/traditional.jpg"
+      width={500}
+      height={500}
+      alt="Traditioanl African crafts"
+    />
     </div>
-  );
+
+    <div className="max-w-6xl m-auto py-8 flex gap-6">
+     <Image 
+      src="/people.jpg"
+      width={500}
+      height={500}
+      alt="African kids"
+    /> 
+    <article >
+    <h2 className="text-6xl text-[#4c3525] pb-4 font-serif text-right">How Secure is it?</h2>
+    <p className="text-[#4c3525] font-sans text-xl max-w-3xl text-right">
+    There are many cryptocurrencies out there. You might ask, what sets us apart.
+    We wish to uplift our continent though a decentralized democratic payment system where no matter your privacy
+    background or economic system, your money is yours.
+    </p>
+    <p className="text-[#4c3525] font-sans text-xl max-w-3xl pt-4 text-right">
+    CoinAfriq uses advanced public key encryption that is considered impossible to crack even with next-gen technology.
+    Whether you're using our blockchain, our wallet or even our website, your information is securely encrypted to the highest current standard.
+    </p>
+    <p className="text-[#4c3525] font-sans text-xl max-w-3xl pt-4 text-right">Don't believe us? Feel free to try and crack it!</p>
+    </article>
+    </div>
+    </section>
+    <section className="bg-[#e0ae6e] px-6 py-12"> 
+      <article>
+        <Image
+          src="/raised-first.svg"
+          height={196}
+          width={196}
+          alt="Raised Fist"
+          className="text-center m-auto"
+        />
+        <h1 className="text-6xl text-[#4c3525] text-center py-6">Democracy at work</h1>
+        <p className="text-3xl text-[#4c3525] text-center max-w-4xl m-auto">In other digital currencies, greater shares can be alloted to those who already own the most.
+        We don't do that here. On our ecosystem, all verification is done by a delegation that is democratically voted on. We call this Nominated Proof of Stake.
+        This ensures everyone has a voice, not just those with the most earnings.
+        </p>
+      </article>
+    </section>
+    </main>
+    <footer className="bg-[#261a12] px-12 py-6">
+      <div className="max-w-6xl m-auto">
+        <h1 className="text-6xl font-serif">More Information</h1>
+        <ul className="text-2xl font-sans py-4">
+          <li>List</li>
+          <li>List</li>
+          <li>List</li>
+          <li>List</li>
+        </ul>
+      </div>
+      <hr className="max-w-6xl m-auto" />
+      <br />
+      <div className="max-w-6xl m-auto">
+        <p className="font-sans text-xl">Copyright &copy; 2025</p>
+      </div>
+    </footer>
+    </>
+  )
 }
