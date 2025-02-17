@@ -5,9 +5,9 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <>
-    <header className="bg-[url('/tree.avif')] bg-cover bg-fixed h-screen flex flex-col">
+    <header className="bg-[url('/tree.avif')] bg-cover bg-fixed min-h-screen flex flex-col">
         <header className="top-0 py-6 items-center gap-2 border-b backdrop-blur sticky bg-[#007A4DBB] m-0">
-        <div className="flex items-center justify-between max-w-6xl m-auto">
+        <div className="flex flex-col lg:flex-row items-center justify-between max-w-6xl m-auto">
         <div>
           <span className="flex items-center gap-6">
           <Image
@@ -17,7 +17,7 @@ export default function Page() {
           alt="Logo"
         />
           <span>
-          <h3 className="font-serif text-6xl text-[#D4AF37] font-black uppercase">CoinAfriq</h3>
+          <h3 className="font-serif text-3xl lg:text-6xl text-[#D4AF37] font-black uppercase">CoinAfriq</h3>
           <p className="font-sans text-2xl">Africa&apos;s Digital Currency</p>
           </span>
           </span>
@@ -29,31 +29,32 @@ export default function Page() {
           </div>
         </header>
     
-    <section className="m-auto bg-[#000000bb] px-12 py-6">
-      <div className="flex flex-col items-center justify-center max-w-2xl">
+    <section className="m-auto bg-[#000000bb] px-12 py-6 min-h-80 max-h-screen">
+      <div className="flex flex-col items-center justify-center lg:max-w-2xl">
         <Image
           src="/coin-afriq.svg"
           width={256}
           height={256}
+          className="w-32 lg:w-48 h-auto" 
           alt="Logo"
         />
-        <h1 className="text-8xl font-serif font-black uppercase py-6">CoinAfriq</h1>
+        <h1 className="text-4xl lg:text-8xl font-serif font-black uppercase py-6">CoinAfriq</h1>
         <p className="text-xl font-sans">
           Africoin is the first secure digital currency made for the African continent. Secure your finances with cutting edge technology
           to ensure your money is safe, your data private and your privacy respected. 
         </p>
         <br />
-        <div className="flex items-center justify-center gap-6 py-6">
-          <button className="bg-[#D4AF37] border px-6 py-2 text-xl rounded-lg">Buy</button>
-          <button className="border px-6 py-2 text-xl rounded-lg">Get your wallet</button>
-          <button className="border px-6 py-2 text-xl rounded-lg">Learn More</button>
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-6 py-6">
+          <button className="bg-[#D4AF37] text-black font-bold font-sans border px-6 py-2 text-xl rounded-lg">Buy</button>
+          <button className="border px-6 py-2 text-xl font-sans rounded-lg">Get your wallet</button>
+          <button className="border px-6 py-2 text-xl font-sans rounded-lg">Learn More</button>
         </div>
       </div>
     </section>
     </header>
     <main>
     <section className="bg-[#E6BE8A] text-black px-6 py-8">
-    <div className="max-w-6xl m-auto py-6 flex gap-6"> 
+    <div className="max-w-6xl m-auto py-6 flex flex-col lg:flex-row  gap-6"> 
     <article>
     <h2 className="text-6xl text-[#4c3525] pb-4 font-serif">Why CoinAfriq</h2>
     <p className="text-[#4c3525] font-sans text-xl max-w-3xl">
@@ -71,15 +72,17 @@ export default function Page() {
       src="/traditional.jpg"
       width={500}
       height={500}
+      className="max-w-full h-auto"
       alt="Traditioanl African crafts"
     />
     </div>
 
-    <div className="max-w-6xl m-auto py-8 flex gap-6">
+    <div className="max-w-6xl m-auto py-8 flex flex-col lg:flex-row gap-6">
      <Image 
       src="/people.jpg"
       width={500}
       height={500}
+      className="max-w-full h-auto"
       alt="African kids"
     /> 
     <article >
@@ -104,10 +107,10 @@ export default function Page() {
           height={196}
           width={196}
           alt="Raised Fist"
-          className="text-center m-auto"
+          className="text-center m-auto w-32 lg:w-48 h-auto"
         />
         <h1 className="text-6xl text-[#4c3525] text-center py-6">Democracy at work</h1>
-        <p className="text-3xl text-[#4c3525] text-center max-w-4xl m-auto">In other digital currencies, greater shares can be alloted to those who already own the most.
+        <p className="text-2xl lg:text-3xl text-[#4c3525] text-center max-w-4xl m-auto">In other digital currencies, greater shares can be alloted to those who already own the most.
         We don&apos;t do that here. On our ecosystem, all verification is done by a delegation that is democratically voted on. We call this Nominated Proof of Stake.
         This ensures everyone has a voice, not just those with the most earnings.
         </p>
