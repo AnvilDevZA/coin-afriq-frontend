@@ -3,7 +3,7 @@ import { contentMenu } from "@/menu.config";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#261a12] px-12 py-6">
+    <footer className="bg-[#261a12] px-12 py-6 text-white dark:text-white">
       <div className="max-w-6xl m-auto">
         <h1 className="text-3xl lg:text-6xl font-serif">More Information</h1>
         <ul className="text-2xl font-sans py-4 flex gap-4">
