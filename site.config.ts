@@ -7,5 +7,5 @@ type SiteConfig = {
 export const siteConfig: SiteConfig = {
   site_name: "Coin Afriq",
   site_description: "Africa's Digital Currency",
-  site_domain: "https://backend.coinafriq.org",
+  site_domain: "https://coinafriq.org",
 };
