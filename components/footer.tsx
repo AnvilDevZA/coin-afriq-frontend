@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { mainMenu, contentMenu } from "@/menu.config";
+import { contentMenu } from "@/menu.config";
 
 export default function Footer() {
   return (

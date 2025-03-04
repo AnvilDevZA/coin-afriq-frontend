@@ -14,7 +14,7 @@ export async function PostCard({ post }: { post: Post }) {
   const media = post.featured_media
     ? await getFeaturedMediaById(post.featured_media)
     : null;
-  const author = post.author ? await getAuthorById(post.author) : null;
+
   const date = new Date(post.date).toLocaleDateString("en-US", {
     month: "long",
     day: "numeric",
@@ -29,7 +29,7 @@ export async function PostCard({ post }: { post: Post }) {
       href={`/posts/${post.slug}`}
       className={cn(
         "border p-4 bg-accent/30 rounded-lg group flex justify-between flex-col not-prose gap-8",
-        "hover:bg-accent/75 transition-all"
+        "hover:bg-accent/75 transition-all",
       )}
     >
       <div className="flex flex-col gap-4">

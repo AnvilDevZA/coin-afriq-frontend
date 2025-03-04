@@ -1,6 +1,4 @@
 import Image from "next/image";
-import { Menu } from "lucide-react";
-import { mainMenu, contentMenu } from "@/menu.config";
 import { MobileNav } from "@/components/nav/mobile-nav";
 
 export default function Header() {
