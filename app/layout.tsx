@@ -3,11 +3,8 @@ import { ThemeProvider } from "next-themes";
 import { Noto_Serif, Noto_Sans } from "next/font/google";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import { mainMenu, contentMenu } from "@/menu.config";
 import "./globals.css";
 import { siteConfig } from "@/site.config";
-
-import { cn } from "@/lib/utils";
 
 const notoSerif = Noto_Serif({
   variable: "--font-noto-serif",

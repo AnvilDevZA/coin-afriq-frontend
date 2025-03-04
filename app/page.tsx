@@ -1,14 +1,4 @@
-import { Section, Container, Prose } from "@/components/craft";
-import Balancer from "react-wrap-balancer";
-import { Menu } from "lucide-react";
-
 import Image from "next/image";
-import { File, Pen, Tag, Diamond, User, Folder } from "lucide-react";
-import { WordPressIcon } from "@/components/icons/wordpress";
-import { NextJsIcon } from "@/components/icons/nextjs";
-import { mainMenu, contentMenu } from "@/menu.config";
-
-import Link from "next/link";
 
 // This page is using the craft.tsx component and design system
 export default function Home() {
