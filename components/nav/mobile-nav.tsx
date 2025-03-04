@@ -32,13 +32,17 @@ export function MobileNav() {
       <SheetTrigger asChild>
         <Button
           variant="ghost"
-          className="px-0 border w-10 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0"
+          className="flex font-noto-sans gap-2 items-center justify-center px-2 border text-white dark:text-white hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0"
         >
+          <p className="uppercase text-white dark:text-white font-bold">Menu</p>
           <Menu />
           <span className="sr-only">Toggle Menu</span>
         </Button>
       </SheetTrigger>
-      <SheetContent side="right" className="pr-0">
+      <SheetContent
+        side="right"
+        className="pr-0 text-white dark:text-white font-sans bg-[#007A4D66] dark:bg-[#007A4D66"
+      >
         <SheetHeader>
           <SheetTitle className="text-right">
             <MobileLink
@@ -52,7 +56,7 @@ export function MobileNav() {
           </SheetTitle>
         </SheetHeader>
         <ScrollArea className="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
-          <div className="flex flex-col space-y-3">
+          <div className="flex flex-col space-y-3 font-noto-sans">
             <h3 className="text-small mt-6">Menu</h3>
             <Separator />
             {Object.entries(mainMenu).map(([key, href]) => (
