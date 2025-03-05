@@ -33,6 +33,19 @@
     --chart-5: 27 87% 67%;
 }
 
+.table {
+    max-width: 60% !important;
+    border-collapse: collapse;
+    overflow-x: scroll !important;
+    height: auto !important;
+}
+
+th,
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
 .dark {
     --background: 20 14.3% 4.1%;
     --foreground: 0 0% 95%;
