@@ -128,6 +128,8 @@ td {
     h5,
     h6 {
         font-family: --font-noto-serif;
+        line-height: 1.6;
+        margin-bottom: 1.6rem;
     }
 
     img {
@@ -139,5 +141,6 @@ td {
     p {
         @apply text-xl;
         line-height: 1.6;
+        margin-bottom: 1.6rem;
     }
 }
