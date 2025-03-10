@@ -129,7 +129,8 @@ td {
     h6 {
         font-family: --font-noto-serif;
         line-height: 1.6;
-        margin-bottom: 1.6rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 
     img {
@@ -142,5 +143,10 @@ td {
         @apply text-xl;
         line-height: 1.6;
         margin-bottom: 1.6rem;
+    }
+
+    ul {
+        margin-top: 1rem;
+        margin-botom: 1rem;
     }
 }
