@@ -34,7 +34,9 @@ export function MobileNav() {
           variant="ghost"
           className="flex font-noto-sans gap-2 items-center justify-center px-2 border text-white dark:text-white hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0"
         >
-          <p className="uppercase text-white dark:text-white font-bold">Menu</p>
+          <span className="uppercase text-white dark:text-white font-bold">
+            Menu
+          </span>
           <Menu />
           <span className="sr-only">Toggle Menu</span>
         </Button>
