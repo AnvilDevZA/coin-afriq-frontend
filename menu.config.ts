@@ -2,6 +2,7 @@
 export const mainMenu = {
   home: "/",
   about: "/pages/what-exactly-is-coinafriq",
+  "how it works": "/pages/how-it-works/",
   "getting started": "/pages/getting-started",
   "for individuals": "/pages/coinafriq-for-individuals",
   "for businesses": "/pages/coin-afriq-for-business",
