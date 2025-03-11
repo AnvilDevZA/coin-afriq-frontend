@@ -2,7 +2,7 @@ import Link from "next/link";
 import { contentMenu } from "@/menu.config";
 
 
-export default function Footer(props) {
+export default function Footer( props: any ) {
   return (
     <footer className="bg-[#261a12] px-12 py-6 text-white dark:text-white">
       <div className="max-w-6xl m-auto">
