@@ -1,5 +1,4 @@
 import { getPageBySlug, getAllPages } from "@/lib/wordpress";
-import { Prose } from "@/components/craft";
 import { siteConfig } from "@/site.config";
 
 import type { Metadata } from "next";
