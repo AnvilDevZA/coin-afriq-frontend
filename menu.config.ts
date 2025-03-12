@@ -6,6 +6,7 @@ export const mainMenu = {
   "getting started": "/pages/getting-started",
   "for individuals": "/pages/coinafriq-for-individuals",
   "for businesses": "/pages/coin-afriq-for-business",
+  "project aims and milestones": "/pages/project-aims-and-milestones",
   whitepaper: "/pages/coin-afriq-whitepaper/",
   "Business Plan": "/pages/business-plan",
   blog: "/posts",
