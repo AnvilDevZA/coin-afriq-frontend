@@ -119,6 +119,7 @@ td {
     body {
         @apply bg-background text-foreground;
         font-family: --font-noto-sans;
+        color:#4c3525;
     }
 
     h1,
@@ -133,6 +134,19 @@ td {
         margin-bottom: 1rem;
     }
 
+    h1 {
+        font-size: 3.75rem;
+        font-weight: 900;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2.25rem;
+    }
+
     img {
         max-width: 100%;
         height: auto;
@@ -140,13 +154,14 @@ td {
     }
 
     p {
-        @apply text-xl;
+        font-size:1.25rem;
         line-height: 1.6;
         margin-bottom: 1.6rem;
+        max-width:80ch;
     }
 
     ul {
         margin-top: 1rem;
-        margin-botom: 1rem;
+        margin-bottom: 1rem;
     }
 }

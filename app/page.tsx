@@ -49,12 +49,7 @@ const ToDelete = () => {
               <h2 className="text-6xl text-[#4c3525] dark:text-[#4c3525] pb-4 font-serif text-right">
                 How Secure is it?
               </h2>
-              <p className="text-[#4c3525] dark:text-[#4c3525] font-sans text-xl max-w-3xl text-right">
-                There are many cryptocurrencies out there. You might ask, what
-                sets us apart. We wish to uplift our continent though a
-                decentralized democratic payment system where no matter your
-                privacy background or economic system, your money is yours.
-              </p>
+
               <p className="text-[#4c3525] dark:text-[#4c3525] font-sans text-xl max-w-3xl pt-4 text-right">
                 CoinAfriq uses advanced public key encryption that is considered
                 impossible to crack even with next-gen technology. Whether
@@ -62,8 +57,12 @@ const ToDelete = () => {
                 website, your information is securely encrypted to the highest
                 current standard.
               </p>
-              <p className="text-[#4c3525] dark:text-[#4c3525] font-sans text-xl max-w-3xl pt-4 text-right">
-                Don&apos;t believe us? Feel free to try and crack it!
+              <p className="text-[#4c3525] dark:text-[#4c3525] font-sans text-xl max-w-3xl text-right">
+                While other popular digital currencies are lagging behind using yesteryear's
+                standards in cryptography, we're thinking of the future.
+                Not only are your transactions secure based onthe latest cutting-edge technology,
+                we're thinking ahead by researching and developing Post Quantum Cryptography
+                techniques, ensuring your money is safe for years to come.
               </p>
             </article>
           </div>
@@ -80,7 +79,7 @@ const ToDelete = () => {
             <h1 className="text-6xl text-[#4c3525] dark:text-[#4c3525] text-center py-6">
               Democracy at work
             </h1>
-            <p className="text-2xl lg:text-3xl text-[#4c3525]  dark:text-[#4c3525] text-center max-w-4xl m-auto">
+            <p className="text-2xl lg:text-3xl text-[#4c3525]  dark:text-[#4c3525] text-center max-w-4xl m-auto font-sans">
               In other digital currencies, greater shares can be alloted to
               those who already own the most. We don&apos;t do that here. On our
               ecosystem, all verification is done by a delegation that is
@@ -89,6 +88,14 @@ const ToDelete = () => {
               earnings.
             </p>
           </article>
+        </section>
+        <section className="bg-[#E6BE8A] bg-[url('/full-bloom.png')] dark:bg-[#E6BE8A] dark:bg-[url('/full-bloom.png')] bg-blend-multiply dark:bg-blend-multiply  text-black px-6 py-8">
+        
+            <article>
+              <h1 className="text-6xl text-[#4c3525] dark:text-[#4c3525] text-center py-6">
+                Backed by the real world</h1>
+              <p className="text-2xl lg:text-3xl text-[#4c3525]  dark:text-[#4c3525] text-center max-w-4xl m-auto font-sans">One of our first backers is the <b>Africa Speed Rail</b> - a revolutionary project aimed at connecting our continent from the North to the South. And yes, you can use Coin Afriq to pay for your tickets! </p>
+            </article>
         </section>
       </main>
     </>

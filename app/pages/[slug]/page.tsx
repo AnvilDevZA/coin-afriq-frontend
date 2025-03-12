@@ -75,14 +75,12 @@ export default async function Page({
   return (
     <>
       <section className="bg-[#E6BE8A] bg-[url('/full-bloom.png')] dark:bg-[#E6BE8A] dark:bg-[url('/full-bloom.png')] bg-blend-multiply  text-black px-6 py-8">
-        <div className="max-w-6xl m-auto py-6 flex flex-col lg:flex-row  gap-6">
-          <Prose>
-            <h2 className="text-3xl lg:text-6xl">{page.title.rendered}</h2>
+        <div className="max-w-6xl m-auto py-6">
+            <h2 className="text-3xl lg:text-6xl font-serif font-black">{page.title.rendered}</h2>
             <div
-              className="text-xl"
+              className="text-xl font-sans"
               dangerouslySetInnerHTML={{ __html: page.content.rendered }}
             />
-          </Prose>
         </div>
       </section>
     </>

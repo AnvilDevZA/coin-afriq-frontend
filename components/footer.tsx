@@ -21,7 +21,7 @@ export default function Footer( props: any ) {
       </div>
       <hr className="max-w-6xl m-auto" />
       <br />
-      <div className="max-w-6xl m-auto flex item-center justify-between mt-0 mb-0 pt-0 pb-0">
+      <div className="max-w-6xl m-auto flex flex-col lg:flex-row items-center justify-center lg:justify-between mt-0 mb-0 pt-0 pb-0">
         <p className="font-sans text-xl">
           Copyright &copy; Coin Afriq (Pty) Ltd 2025. All rights reserved
         </p>
