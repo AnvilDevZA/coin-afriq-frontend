@@ -35,7 +35,7 @@ export default function Header() {
             alt="Logo"
           />
           <h1 className="text-4xl lg:text-8xl font-serif font-black uppercase py-6 text-white dark:text-white">
-            CoinAfriq
+            Coin Afriq
           </h1>
           <p className="text-xl font-sans text-white dark:text-white">
             Coin Afriq is the first secure digital currency made for the African
