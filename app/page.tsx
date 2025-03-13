@@ -103,7 +103,7 @@ const ToDelete = () => {
             <h1 className="text-6xl text-[#4c3525] dark:text-[#4c3525] text-center py-6">
               Backed by the real world
             </h1>
-            <p className="text-2xl lg:text-3xl text-[#4c3525]  dark:text-[#4c3525] text-center max-w-4xl m-auto font-sans">
+            <p className="text-2xl lg:text-3xl text-[#4c3525]  dark:text-[#4c3525] text-center max-w-4xl m-auto font-sans mb-4">
               One of our first backers is the <Link href="/pages/africa-speed-rail"><b>Africa Speed Rail</b></Link> - a
               revolutionary project aimed at connecting our continent from the
               via the West African coast. And yes, you can use Coin Afriq to pay for
