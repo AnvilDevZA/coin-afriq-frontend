@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link"
 import { MobileNav } from "@/components/nav/mobile-nav";
 
 export default function Header() {
@@ -7,6 +8,7 @@ export default function Header() {
       <header className="top-0 py-6 items-center gap-2 border-b backdrop-blur sticky bg-[#007A4DBB] dark:bg-[#007A4DBB] m-0">
         <div className="flex flex-col lg:flex-row items-center justify-between max-w-6xl m-auto">
           <div>
+            <Link href="/">
             <span className="flex items-center gap-6">
               <Image src="/coin-afriq.svg" width={96} height={96} alt="Logo" />
               <span>
@@ -18,6 +20,7 @@ export default function Header() {
                 </p>
               </span>
             </span>
+            </Link>
           </div>
           <MobileNav />
         </div>

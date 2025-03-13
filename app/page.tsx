@@ -109,7 +109,7 @@ const ToDelete = () => {
               via the West African coast. And yes, you can use Coin Afriq to pay for
               your tickets!
             </p>
-            <p p className="text-2xl lg:text-3xl text-[#4c3525]  dark:text-[#4c3525] text-center max-w-4xl m-auto font-sans">At present we are also aprroaching leaders in natural resources to tie to our digital currency. By ensuring we have backing by the rich minerals and resources for our digital currency, we can ensure security and peace of mind, for users and investors alike.</p>
+            <p className="text-2xl lg:text-3xl text-[#4c3525]  dark:text-[#4c3525] text-center max-w-4xl m-auto font-sans">At present we are also aprroaching leaders in natural resources to tie to our digital currency. By ensuring we have backing by the rich minerals and resources for our digital currency, we can ensure security and peace of mind, for users and investors alike.</p>
           </article>
         </section>
       </main>
