@@ -13,7 +13,7 @@ export default function Header() {
               <Image src="/coin-afriq.svg" width={96} height={96} alt="Logo" />
               <span>
                 <h3 className="font-serif text-3xl lg:text-6xl text-[#D4AF37] dark:text-[#D4AF37]text-[#D4AF37] font-black uppercase">
-                  CoinAfriq
+                  Coin Afriq
                 </h3>
                 <p className="font-sans text-2xl text-white dark:text-white">
                   Africa&apos;s Digital Currency

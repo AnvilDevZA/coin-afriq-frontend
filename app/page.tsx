@@ -61,7 +61,7 @@ const ToDelete = () => {
               <p className="text-[#4c3525] dark:text-[#4c3525] font-sans text-xl max-w-3xl text-right">
                 While other popular digital currencies are lagging behind using
                 yesteryear&apos;s standards in cryptography, we&apos;re thinking of the
-                future. Not only are your transactions secure based onthe latest
+                future. Not only are your transactions secure based on the latest
                 cutting-edge technology, we&apos;re thinking ahead by researching and
                 developing Post Quantum Cryptography techniques, ensuring your
                 money is safe for years to come.
