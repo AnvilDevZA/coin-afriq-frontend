@@ -38,7 +38,7 @@ export default function Header() {
             Coin Afriq
           </h1>
           <p className="text-xl font-sans text-white dark:text-white">
-            Coin Afriq is the first secure digital currency made for the African
+            Coin Afriq is the first secure digital currency &lpar; cryptocurrency &rpar; made for the African
             continent. Secure your finances with cutting edge technology to
             ensure your money is safe, your data private and your privacy
             respected.
