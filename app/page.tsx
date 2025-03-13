@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 // This page is using the craft.tsx component and design system
 export default function Home() {
@@ -91,16 +92,24 @@ const ToDelete = () => {
           </article>
         </section>
         <section className="bg-[#E6BE8A] bg-[url('/full-bloom.png')] dark:bg-[#E6BE8A] dark:bg-[url('/full-bloom.png')] bg-blend-multiply dark:bg-blend-multiply  text-black px-6 py-8">
-          <article>
+          <article className="py-4">
+            <Image
+              src="/train.svg"
+              height={196}
+              width={196}
+              alt="Africa Speed Rail"
+              className="text-center m-auto w-32 lg:w-48 h-auto"
+            />
             <h1 className="text-6xl text-[#4c3525] dark:text-[#4c3525] text-center py-6">
               Backed by the real world
             </h1>
             <p className="text-2xl lg:text-3xl text-[#4c3525]  dark:text-[#4c3525] text-center max-w-4xl m-auto font-sans">
-              One of our first backers is the <b>Africa Speed Rail</b> - a
+              One of our first backers is the <Link href="/pages/africa-speed-rail"><b>Africa Speed Rail</b></Link> - a
               revolutionary project aimed at connecting our continent from the
-              North to the South. And yes, you can use Coin Afriq to pay for
-              your tickets!{" "}
+              via the West African coast. And yes, you can use Coin Afriq to pay for
+              your tickets!
             </p>
+            <p>At present we are also aprroaching leaders in natural resources to tie to our digital currency. By ensuring we have backing by the rich minerals and resources for our digital currency, we can ensure security and peace of mind, for users and investors alike.</p>
           </article>
         </section>
       </main>

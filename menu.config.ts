@@ -9,6 +9,7 @@ export const mainMenu = {
   "project aims and milestones": "/pages/project-aims-and-milestones",
   whitepaper: "/pages/coin-afriq-whitepaper/",
   "Business Plan": "/pages/business-plan",
+  "Africa Speed Rail": "/pages/africa-speed-rail",
   blog: "/posts",
 };
 
