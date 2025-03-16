@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@plugin "daisyui";
 @plugin "tailwindcss-animate";
 @plugin "@tailwindcss/typography";
 
@@ -163,5 +163,10 @@ td {
     ul {
         margin-top: 1rem;
         margin-bottom: 1rem;
+    }
+
+    .text-shadow-sm {
+        text-shadow: 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black, 0 0 0.5px black
+
     }
 }

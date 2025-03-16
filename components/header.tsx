@@ -25,7 +25,7 @@ export default function Header() {
           <MobileNav />
         </div>
       </header>
-      <section className="m-auto bg-[#000000bb] px-12 py-6 min-h-80 max-h-screen">
+      <section className="m-auto bg-[#000000bb] px-12 py-6 min-h-80 max-h-screen my-6">
         <div className="flex flex-col items-center justify-center lg:max-w-2xl">
           <Image
             src="/coin-afriq.svg"
