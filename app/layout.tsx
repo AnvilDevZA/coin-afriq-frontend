@@ -6,7 +6,7 @@ import Footer from "@/components/footer";
 import "./globals.css";
 import { siteConfig } from "@/site.config";
 import Script from "next/script";
-import { Thumbnail } from "@/lib/Resources";
+// import { Thumbnail } from "@/lib/Resources";
 import { Analytics } from '@vercel/analytics/next';
 
 const notoSerif = Noto_Serif({
