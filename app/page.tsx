@@ -13,7 +13,7 @@ const ToDelete = () => {
         <section className="bg-[url('/wildlife.jpg')] bg-cover bg-center text-white text-shadow bg-fixed px-6 py-6">
           <div className="max-w-6xl m-auto py-6 flex flex-col items-center justify-center gap-6  backdrop-brightness-50">
             <Image src="/africa.svg" alt="Africa" width="256" height="256" />
-            <h2 className="text 6xl font-serif text-center uppercase text-shadow-sm font-black">
+            <h2 className="text-3xl lg:text 6xl font-serif text-center uppercase text-shadow-sm font-black">
               A cryptocurency for the whole Africa
             </h2>
             <p className="text-xl font-sans text-center pb-2 text-shadow-sm font-bold">
