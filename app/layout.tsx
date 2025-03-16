@@ -5,6 +5,8 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import "./globals.css";
 import { siteConfig } from "@/site.config";
+import Script from "next/script";
+import { Thumbnail } from "@/lib/Resources";
 
 const notoSerif = Noto_Serif({
   variable: "--font-noto-serif",
@@ -23,6 +25,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  openGraph: {
+    title: "Coin Afriq",
+    description: "Africa's Digital Curency",
+    url: new URL(siteConfig.site_domain),
+    images: [
+      {
+        url: Thumbnail,
+        secureUrl: Thumbnail,
+        width: 1200,
+        height: 630,
+        alt: "Coin Afriq Preview"
+      },
+    ],
+    type: "website",
+    siteName: "Coin Afriq",
+  }
 };
 
 export default function RootLayout({
@@ -35,6 +53,18 @@ export default function RootLayout({
       <body
         className={`${notoSerif.variable} ${notoSans.variable} antialiased`}
       >
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=GTM-PH6T92J6"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'GTM-PH6T92J6');
+          `}
+          </Script>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

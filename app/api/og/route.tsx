@@ -2,6 +2,8 @@ import { ImageResponse } from "next/og";
 import { NextRequest } from "next/server";
 
 export const runtime = "edge";
+export const contentType = "image/png";
+
 
 export async function GET(request: NextRequest) {
   try {
@@ -10,6 +12,10 @@ export async function GET(request: NextRequest) {
     // Get title and description from the URL query params
     const title = searchParams.get("title");
     const description = searchParams.get("description");
+
+    const bg = await fetch(
+      new URL("../../../../public/OGBackground.png", import.meta.url)
+    ).then((res) => res.arrayBuffer());
 
     return new ImageResponse(
       (
