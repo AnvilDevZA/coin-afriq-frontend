@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Transition from "@/components/transition";
 
 // This page is using the craft.tsx component and design system
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
 
 const ToDelete = () => {
   return (
-    <>
+    <Transition>
       <main>
         <section className="bg-[url('/wildlife.jpg')] bg-cover bg-center text-white text-shadow bg-fixed px-6 py-6">
           <div className="max-w-6xl m-auto py-6 flex flex-col items-center justify-center gap-6  backdrop-brightness-50">
@@ -229,6 +230,6 @@ const ToDelete = () => {
           </article>
         </section>
       </main>
-    </>
+    </Transition>
   );
 };

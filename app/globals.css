@@ -117,7 +117,7 @@ td {
         @apply border-border outline-ring/50;
     }
     body {
-        @apply bg-background text-foreground;
+        background: #E6BE8A;
         font-family: --font-noto-sans;
         color:#4c3525;
     }

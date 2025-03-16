@@ -3,6 +3,8 @@ import { siteConfig } from "@/site.config";
 
 import type { Metadata } from "next";
 
+import Transition from "@/components/transition";
+
 // Revalidate pages every hour
 export const revalidate = 3600;
 
@@ -72,7 +74,7 @@ export default async function Page({
   const page = await getPageBySlug(slug);
 
   return (
-    <>
+    <Transition>
       <section className="bg-[#E6BE8A] bg-[url('/full-bloom.png')] dark:bg-[#E6BE8A] dark:bg-[url('/full-bloom.png')] bg-blend-multiply  text-black px-6 py-8">
         <div className="max-w-6xl m-auto py-6">
             <h2 className="text-3xl lg:text-6xl font-serif font-black">{page.title.rendered}</h2>
@@ -82,6 +84,6 @@ export default async function Page({
             />
         </div>
       </section>
-    </>
+    </Transition>
   );
 }

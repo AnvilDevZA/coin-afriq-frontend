@@ -9,6 +9,7 @@ import Script from "next/script";
 // import { Thumbnail } from "@/lib/Resources";
 import { Analytics } from '@vercel/analytics/next';
 
+
 const notoSerif = Noto_Serif({
   variable: "--font-noto-serif",
   subsets: ["latin"],
