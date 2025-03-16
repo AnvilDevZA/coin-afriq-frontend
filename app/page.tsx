@@ -19,7 +19,7 @@ const ToDelete = () => {
             <p className="text-xl font-sans text-center pb-2 text-shadow-sm font-bold">
               Coin Afriq is a cryptocurrency (like Bitcoin), but it is made for
               the African continent. It is secure, private and easy to work
-              with. It's also a platform for decentralized applications and
+              with. It&apos;s also a platform for decentralized applications and
               smart contracts (like Ethereum). What sets us apart is that we are
               more secure, more democratic and more equitable.
             </p>
