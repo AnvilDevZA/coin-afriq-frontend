@@ -7,6 +7,7 @@ import "./globals.css";
 import { siteConfig } from "@/site.config";
 import Script from "next/script";
 import { Thumbnail } from "@/lib/Resources";
+import { Analytics } from '@vercel/analytics/next';
 
 const notoSerif = Noto_Serif({
   variable: "--font-noto-serif",
@@ -29,15 +30,6 @@ export const metadata: Metadata = {
     title: "Coin Afriq",
     description: "Africa's Digital Curency",
     url: new URL(siteConfig.site_domain),
-    images: [
-      {
-        url: Thumbnail,
-        secureUrl: Thumbnail,
-        width: 1200,
-        height: 630,
-        alt: "Coin Afriq Preview"
-      },
-    ],
     type: "website",
     siteName: "Coin Afriq",
   }
@@ -73,6 +65,7 @@ export default function RootLayout({
         >
           <Header />
           {children}
+          <Analytics />
           <Footer />
         </ThemeProvider>
       </body>
