@@ -10,7 +10,7 @@ export const mainMenu = {
   whitepaper: "/pages/coin-afriq-whitepaper/",
   "Business Plan": "/pages/business-plan",
   "Africa Speed Rail": "/pages/africa-speed-rail",
-  "Projects": "/pages/partnerships",
+  "Partnerships": "/pages/partnerships",
   "Atomli": "/pages/atomli",
   blog: "/posts",
 };
