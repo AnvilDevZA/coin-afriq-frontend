@@ -21,7 +21,7 @@ import {
 } from "@/components/ui/sheet";
 import { Separator } from "@/components/ui/separator";
 
-import { mainMenu, contentMenu } from "@/menu.config";
+import { mainMenu } from "@/menu.config";
 import { siteConfig } from "@/site.config";
 
 export function MobileNav() {
