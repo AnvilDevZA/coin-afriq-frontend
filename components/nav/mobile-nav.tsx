@@ -6,7 +6,7 @@ import Link, { LinkProps } from "next/link";
 import { useRouter } from "next/navigation";
 
 // Utility Imports
-import { Menu, ArrowRightSquare } from "lucide-react";
+import { Menu, ArrowRightSquare, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 // Component Imports
@@ -61,11 +61,72 @@ export function MobileNav() {
           <div className="flex flex-col space-y-3 font-noto-sans">
             <h3 className="text-small mt-6">Menu</h3>
             <Separator />
-            {Object.entries(mainMenu).map(([key, href]) => (
-              <MobileLink key={key} href={href} onOpenChange={setOpen}>
-                {key.charAt(0).toUpperCase() + key.slice(1)}
+              <MobileLink href="/" onOpenChange={setOpen}>
+                Home
               </MobileLink>
-            ))}
+              <ul className="menu w-56 mt-0 mx-0 px-0 py-0">
+                <details>
+                  <summary className="flex flex-row items-center gap-2">
+                    <MobileLink href="/pages/getting-started">
+                      Getting Started   
+                    </MobileLink>
+                    <ChevronRight className="h-4 w-4"/>
+                  </summary> 
+                  <ul className="menu-dropdown menu-dropdown-show flex flex-col ml-6 gap-4">
+                    <MobileLink href="/pages/what-exactly-is-coinafriq" onOpenChange={setOpen}>
+                      What is Coin Afriq
+                    </MobileLink>
+                    <MobileLink href="/pages/how-it-works" onOpenChange={setOpen}>
+                      How it Works
+                    </MobileLink>
+                    <MobileLink href="/pages/coinafriq-for-individuals" onOpenChange={setOpen}>
+                      For Individuals
+                    </MobileLink>
+                    <MobileLink href="/pages/coin-afriq-for-business" onOpenChange={setOpen}>
+                      For Business
+                  </MobileLink>
+                </ul>
+                </details>
+            </ul>
+              <ul className="menu w-56 mt-0 mx-0 px-0 py-0">
+                <details>
+                <summary className="flex flex-row items-center gap-2">
+                  <MobileLink href="/pages/partnerships">
+                    Partnerships
+                  </MobileLink>
+                   <ChevronRight className="h-4 w-4"/>
+                </summary>
+                <ul className="menu-dropdown menu-dropdown-show flex flex-col ml-6 gap-4">
+                    <MobileLink href="/pages/atomli" onOpenChange={setOpen}>
+                      Atomli
+                    </MobileLink>
+                   <MobileLink href="/pages/africa-speed-rail" onOpenChange={setOpen}>
+                      Africa Speed Rails
+                  </MobileLink>
+              </ul>
+              </details>
+            </ul>
+            <ul className="menu w-56 mt-0 mx-0 px-0 py-0">
+              <details>
+              <summary className="flex flex-row items-center gap-2">
+                <li className="text-lg">
+                  Technical
+                </li>
+                <ChevronRight className="h-4 w-4"/>
+              </summary>
+                <ul className="menu-dropdown menu-dropdown-show flex flex-col ml-6 gap-4">
+                    <MobileLink href="/pages/coin-afriq-whitepaper/" onOpenChange={setOpen}>
+                      Whitepaper
+                    </MobileLink>
+                   <MobileLink href="/pages/business-plan" onOpenChange={setOpen}>
+                      Business Plan
+                  </MobileLink>
+                   <MobileLink href="/pages/project-aims-and-milestones" onOpenChange={setOpen}>
+                      Project Aims and Milestones
+                   </MobileLink>
+              </ul>
+              </details>
+            </ul>
           </div>
         </ScrollArea>
       </SheetContent>
