@@ -124,6 +124,9 @@ export function MobileNav() {
                       Project Aims and Milestones
                    </MobileLink>
               </ul>
+              <MobileLink href="/pages/news-and-articles" onOpenChange={setOpen}>
+                News and Articles
+              </MobileLink>
               </details>
             </ul>
           </div>
