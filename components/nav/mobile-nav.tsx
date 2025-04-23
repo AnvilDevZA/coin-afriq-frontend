@@ -96,6 +96,9 @@ export function MobileNav() {
                    <ChevronRight className="h-4 w-4"/>
                 </summary>
                 <ul className="menu-dropdown menu-dropdown-show flex flex-col ml-6 gap-4">
+		    <MobileLink href="/pages/how-partnering-with-coin-afriq-can-help-your-business" onOpenChange={setOpen}>
+                      How partnerning can help your business
+                    </MobileLink>
                     <MobileLink href="/pages/atomli" onOpenChange={setOpen}>
                       Atomli
                     </MobileLink>
