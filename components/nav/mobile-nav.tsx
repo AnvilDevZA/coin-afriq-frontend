@@ -131,9 +131,10 @@ export function MobileNav() {
               <Separator />
               <MobileLink href="/posts" onOpenChange={setOpen}>
                 News and Articles
-              </MobileLink><Separator />
+              </MobileLink>
+	      <Separator />
               <MobileLink href="/pages/contribute" onOpenChange={setOpen}>
-                Want to contribute to building Africa&rsquo;s Digital Future?
+                Contribute
               </MobileLink>
             </ul>
           </div>
