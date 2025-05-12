@@ -159,7 +159,7 @@ export function MobileNav() {
                   </summary>
                   <ul className="menu-dropdown menu-dropdown-show flex flex-col ml-6 gap-4">
                     <MobileLink
-                      href="/pages/media-and-press/promotional-materials/"
+                      href="/pages/promotional-materials/"
                       onOpenChange={setOpen}
                     >
                       Promotional Materials
