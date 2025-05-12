@@ -60,96 +60,119 @@ export function MobileNav() {
           <div className="flex flex-col space-y-3 font-noto-sans">
             <h3 className="text-small mt-6">Menu</h3>
             <Separator />
-              <MobileLink href="/" onOpenChange={setOpen}>
-                Home
-              </MobileLink>
-              <ul className="menu w-56 mt-0 mx-0 px-0 py-0">
-                <details>
-                  <summary className="flex flex-row items-center gap-2">
-                    <MobileLink href="/pages/getting-started">
-                      Getting Started   
-                    </MobileLink>
-                    <ChevronRight className="h-4 w-4"/>
-                  </summary> 
-                  <ul className="menu-dropdown menu-dropdown-show flex flex-col ml-6 gap-4">
-                    <MobileLink href="/pages/what-exactly-is-coinafriq" onOpenChange={setOpen}>
-                      What is Coin Afriq
-                    </MobileLink>
-                    <MobileLink href="/pages/how-it-works" onOpenChange={setOpen}>
-                      How it Works
-                    </MobileLink>
-                    <MobileLink href="/pages/coinafriq-for-individuals" onOpenChange={setOpen}>
-                      For Individuals
-                    </MobileLink>
-                    <MobileLink href="/pages/coin-afriq-for-business" onOpenChange={setOpen}>
-                      For Business
-                  </MobileLink>
-                </ul>
-                </details>
-            </ul>
-              <ul className="menu w-56 mt-0 mx-0 px-0 py-0">
-                <details>
+            <MobileLink href="/" onOpenChange={setOpen}>
+              Home
+            </MobileLink>
+            <ul className="menu w-56 mt-0 mx-0 px-0 py-0">
+              <details>
                 <summary className="flex flex-row items-center gap-2">
-                  <MobileLink href="/pages/partnerships">
-                    Partnerships
+                  <MobileLink href="/pages/getting-started">
+                    Getting Started
                   </MobileLink>
-                   <ChevronRight className="h-4 w-4"/>
+                  <ChevronRight className="h-4 w-4" />
                 </summary>
                 <ul className="menu-dropdown menu-dropdown-show flex flex-col ml-6 gap-4">
-		    <MobileLink href="/pages/how-partnering-with-coin-afriq-can-help-your-business" onOpenChange={setOpen}>
-                      How partnerning can help your business
-                    </MobileLink>
-                    <MobileLink href="/pages/atomli" onOpenChange={setOpen}>
-                      Atomli
-                    </MobileLink>
-                   <MobileLink href="/pages/africa-speed-rail" onOpenChange={setOpen}>
-                      Africa Speed Rails
+                  <MobileLink
+                    href="/pages/what-exactly-is-coinafriq"
+                    onOpenChange={setOpen}
+                  >
+                    What is Coin Afriq
                   </MobileLink>
-              </ul>
+                  <MobileLink href="/pages/how-it-works" onOpenChange={setOpen}>
+                    How it Works
+                  </MobileLink>
+                  <MobileLink
+                    href="/pages/coinafriq-for-individuals"
+                    onOpenChange={setOpen}
+                  >
+                    For Individuals
+                  </MobileLink>
+                  <MobileLink
+                    href="/pages/coin-afriq-for-business"
+                    onOpenChange={setOpen}
+                  >
+                    For Business
+                  </MobileLink>
+                </ul>
               </details>
             </ul>
             <ul className="menu w-56 mt-0 mx-0 px-0 py-0">
               <details>
-              <summary className="flex flex-row items-center gap-2">
-                <li className="text-lg">
-                  Technical
-                </li>
-                <ChevronRight className="h-4 w-4"/>
-              </summary>
-                <ul className="menu-dropdown menu-dropdown-show flex flex-col ml-6 gap-4">
-                    <MobileLink href="/pages/coin-afriq-whitepaper/" onOpenChange={setOpen}>
-                      Whitepaper
-                    </MobileLink>
-                   <MobileLink href="/pages/business-plan" onOpenChange={setOpen}>
-                      Business Plan
+                <summary className="flex flex-row items-center gap-2">
+                  <MobileLink href="/pages/partnerships">
+                    Partnerships
                   </MobileLink>
-                   <MobileLink href="/pages/project-aims-and-milestones" onOpenChange={setOpen}>
-                      Project Aims and Milestones
-                   </MobileLink>
-              	</ul>
-              </details>
-		</ul>
-		<ul className="menu w-56 mt-0 mx-0 px-0 py-0">
-              		<details>
-              			<summary className="flex flex-row items-center gap-2">
-                			<li className="text-lg">
-                  				Media and Press
-                			</li>
-               				 <ChevronRight className="h-4 w-4"/>
-              			</summary>
+                  <ChevronRight className="h-4 w-4" />
+                </summary>
                 <ul className="menu-dropdown menu-dropdown-show flex flex-col ml-6 gap-4">
-                    <MobileLink href="/pages/media-and-press/promotional-materials/" onOpenChange={setOpen}>
+                  <MobileLink
+                    href="/pages/how-partnering-with-coin-afriq-can-help-your-business"
+                    onOpenChange={setOpen}
+                  >
+                    How partnerning can help your business
+                  </MobileLink>
+                  <MobileLink href="/pages/atomli" onOpenChange={setOpen}>
+                    Atomli
+                  </MobileLink>
+                  <MobileLink
+                    href="/pages/africa-speed-rail"
+                    onOpenChange={setOpen}
+                  >
+                    Africa Speed Rails
+                  </MobileLink>
+                </ul>
+              </details>
+            </ul>
+            <ul className="menu w-56 mt-0 mx-0 px-0 py-0">
+              <details>
+                <summary className="flex flex-row items-center gap-2">
+                  <li className="text-lg">Technical</li>
+                  <ChevronRight className="h-4 w-4" />
+                </summary>
+                <ul className="menu-dropdown menu-dropdown-show flex flex-col ml-6 gap-4">
+                  <MobileLink
+                    href="/pages/coin-afriq-whitepaper/"
+                    onOpenChange={setOpen}
+                  >
+                    Whitepaper
+                  </MobileLink>
+                  <MobileLink
+                    href="/pages/business-plan"
+                    onOpenChange={setOpen}
+                  >
+                    Business Plan
+                  </MobileLink>
+                  <MobileLink
+                    href="/pages/project-aims-and-milestones"
+                    onOpenChange={setOpen}
+                  >
+                    Project Aims and Milestones
+                  </MobileLink>
+                </ul>
+              </details>
+
+              <ul className="menu w-56 mt-0 mx-0 px-0 py-0">
+                <details>
+                  <summary className="flex flex-row items-center gap-2">
+                    <li className="text-lg">Media and Press</li>
+                    <ChevronRight className="h-4 w-4" />
+                  </summary>
+                  <ul className="menu-dropdown menu-dropdown-show flex flex-col ml-6 gap-4">
+                    <MobileLink
+                      href="/pages/media-and-press/promotional-materials/"
+                      onOpenChange={setOpen}
+                    >
                       Promotional Materials
                     </MobileLink>
-              	</ul>
-              </details>
-		</ul>
+                  </ul>
+                </details>
+              </ul>
 
               <Separator />
               <MobileLink href="/posts" onOpenChange={setOpen}>
                 News and Articles
               </MobileLink>
-	      <Separator />
+              <Separator />
               <MobileLink href="/pages/contribute" onOpenChange={setOpen}>
                 Contribute
               </MobileLink>
