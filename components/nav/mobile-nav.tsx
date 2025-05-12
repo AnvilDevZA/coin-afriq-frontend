@@ -126,8 +126,25 @@ export function MobileNav() {
                    <MobileLink href="/pages/project-aims-and-milestones" onOpenChange={setOpen}>
                       Project Aims and Milestones
                    </MobileLink>
-              </ul>
+              	</ul>
               </details>
+		</ul>
+		<ul className="menu w-56 mt-0 mx-0 px-0 py-0">
+              		<details>
+              			<summary className="flex flex-row items-center gap-2">
+                			<li className="text-lg">
+                  				Media and Press
+                			</li>
+               				 <ChevronRight className="h-4 w-4"/>
+              			</summary>
+                <ul className="menu-dropdown menu-dropdown-show flex flex-col ml-6 gap-4">
+                    <MobileLink href="/pages/media-and-press/promotional-materials/" onOpenChange={setOpen}>
+                      Promotional Materials
+                    </MobileLink>
+              	</ul>
+              </details>
+		</ul>
+
               <Separator />
               <MobileLink href="/posts" onOpenChange={setOpen}>
                 News and Articles
