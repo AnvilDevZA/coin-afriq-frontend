@@ -142,6 +142,12 @@ export function MobileNav() {
                   >
                     Business Plan
                   </MobileLink>
+		  <MobileLink
+                    href="/pages/pre-money-and-post-money-valuation"
+                    onOpenChange={setOpen}
+                  >
+                    Pre-Money and Post-Money Valuation
+                  </MobileLink>
                   <MobileLink
                     href="/pages/project-aims-and-milestones"
                     onOpenChange={setOpen}
