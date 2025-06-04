@@ -130,6 +130,12 @@ export function MobileNav() {
                   <ChevronRight className="h-4 w-4" />
                 </summary>
                 <ul className="menu-dropdown menu-dropdown-show flex flex-col ml-6 gap-4">
+		  <MobileLink
+                    href="/pages/company-profile/"
+                    onOpenChange={setOpen}
+                  >
+                    Company Profile
+                  </MobileLink>
                   <MobileLink
                     href="/pages/coin-afriq-whitepaper/"
                     onOpenChange={setOpen}
