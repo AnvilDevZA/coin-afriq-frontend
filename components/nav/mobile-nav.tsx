@@ -142,6 +142,12 @@ export function MobileNav() {
                   >
                     Whitepaper
                   </MobileLink>
+		<MobileLink
+                    href="/pages/coin-afriq-tokenomics/"
+                    onOpenChange={setOpen}
+            	>
+		Tokenomics
+		</MobileLink>
                   <MobileLink
                     href="/pages/business-plan"
                     onOpenChange={setOpen}
