@@ -130,7 +130,7 @@ export function MobileNav() {
                   <ChevronRight className="h-4 w-4" />
                 </summary>
                 <ul className="menu-dropdown menu-dropdown-show flex flex-col ml-6 gap-4">
-		  <MobileLink
+                  <MobileLink
                     href="/pages/company-profile/"
                     onOpenChange={setOpen}
                   >
@@ -142,19 +142,19 @@ export function MobileNav() {
                   >
                     Whitepaper
                   </MobileLink>
-		<MobileLink
+                  <MobileLink
                     href="/pages/coin-afriq-tokenomics/"
                     onOpenChange={setOpen}
-            	>
-		Tokenomics
-		</MobileLink>
+                  >
+                    Tokenomics
+                  </MobileLink>
                   <MobileLink
                     href="/pages/business-plan"
                     onOpenChange={setOpen}
                   >
                     Business Plan
                   </MobileLink>
-		  <MobileLink
+                  <MobileLink
                     href="/pages/pre-money-and-post-money-valuation"
                     onOpenChange={setOpen}
                   >
@@ -193,7 +193,7 @@ export function MobileNav() {
               <Separator />
               <MobileLink href="/pages/waitlist" onOpenChange={setOpen}>
                 Waitlist
-              </MobileLink
+              </MobileLink>
               <MobileLink href="/pages/contribute" onOpenChange={setOpen}>
                 Contribute
               </MobileLink>
