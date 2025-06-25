@@ -191,6 +191,9 @@ export function MobileNav() {
                 News and Articles
               </MobileLink>
               <Separator />
+              <MobileLink href="/pages/waitlist" onOpenChange={setOpen}>
+                Waitlist
+              </MobileLink
               <MobileLink href="/pages/contribute" onOpenChange={setOpen}>
                 Contribute
               </MobileLink>
