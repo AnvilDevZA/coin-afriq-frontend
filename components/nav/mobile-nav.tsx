@@ -194,8 +194,13 @@ export function MobileNav() {
               <MobileLink href="/pages/waitlist" onOpenChange={setOpen}>
                 Waitlist
               </MobileLink>
+	      <Separator />
               <MobileLink href="/pages/contribute" onOpenChange={setOpen}>
                 Contribute
+              </MobileLink>
+	      <Separator />
+	      <MobileLink href="/pages/gondwanachain-blockchain-as-a-service" onOpenChange={setOpen}>
+                Gondwana Enterprise Blockchain
               </MobileLink>
             </ul>
           </div>
